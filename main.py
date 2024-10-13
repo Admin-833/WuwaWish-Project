@@ -2,8 +2,8 @@
 from PIL import Image,ImageTk
 import tkinter as tk
 import os
-# from character import *
-# from weapon import *
+from character import *
+from weapon import *
 
 # 从文件中读取版本信息
 f = open("resource/version.config","r",encoding = "UTF-8")
